@@ -23,7 +23,9 @@
   "scripts": {
     "build": "vite build && tsc",
     "release": "bumpp && npm publish",
-    "test": "vitest"
+    "test": "vitest",
+    "bench": "vitest bench",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "bumpp": "^9.4.0",
